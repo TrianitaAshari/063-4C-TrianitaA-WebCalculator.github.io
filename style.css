@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #EBD8C3;
+}
+.flex-container-column {
+    display: flex;
+    /*properti pendukung*/
+    flex-direction: column;
+    max-width: 8000px;
+    margin: 0 auto;
+    text-align: right;
+}
+.flex-container-row {
+    display: flex;
+}
+.button {
+    flex-basis: 25%;
+    /*properti pendukung*/
+    font-size: 1.5em;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid black;
+    background: #B4E197
+    cursor: pointer;
+}
+.double {
+    flex-basis: 50%;
+}
+.display {
+    color: #98B4AA;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #533535;
+    border: 4px solid #92A9BD;
+    font-size: 2em;
+}
+.operator,
+.negative,
+.equals, {
+    background-color: #EBD8C3;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.button:hover {
+    font-weight: bold;
+}
